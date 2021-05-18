@@ -13,6 +13,7 @@ public class DeliveryCancelled extends AbstractEvent {
 
     public void setId(Long id) {
         this.id = id;
+        this.id = id;
     }
     public Long getOrderId() {
         return orderId;
